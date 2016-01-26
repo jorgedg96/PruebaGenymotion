@@ -20,15 +20,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SUMAR"
-            android:id="@+id/button2"
+            android:id="@+id/suma"
             android:layout_gravity="left|top" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="MULTIPLICAR"
+            android:id="@+id/multiplicacion"
+            android:layout_gravity="left|center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIVIDIR"
+            android:id="@+id/division"
+            android:layout_gravity="right|center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="RESTAR"
-            android:id="@+id/button3"
-            android:layout_gravity="center_horizontal|top" />
+            android:id="@+id/resta"
+            android:layout_gravity="right|top" />
     </FrameLayout>
 
     <EditText
@@ -37,10 +51,10 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="@color/abc_background_cache_hint_selector_material_dark" />
+        android:background="@color/abc_background_cache_hint_selector_material_dark"
+        android:layout_alignParentTop="true" />
 
     <EditText
         android:layout_width="wrap_content"
